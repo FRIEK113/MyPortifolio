@@ -37,6 +37,16 @@ body {
     color: #fff;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #2a4653;
+}
+
 
 /* ------------- Header ------------- */
 
@@ -95,4 +105,36 @@ section.topo-site .flex{
 .topo-site .txt-topo-site p{
     color: #fff;
     margin: 40px 0;
+}
+
+/* habilidades */
+
+section.HABILIDADES{
+    padding: 40px 4%;
+}
+
+section.HABILIDADES .flex{
+    gap: 70px;
+}
+
+.HABILIDADES .habilidades-box{
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 22px;
+    transition: .2s;
+}
+
+.HABILIDADES .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff52;
+}
+
+.habilidades-box i{
+    font-size: 38px;
+    color: #2a4653;
+}
+
+.habilidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
 }
