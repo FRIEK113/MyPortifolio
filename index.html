@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,21 @@
   <link rel="stylesheet" href="style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <title>Meu Portifólio</title>
 </head>
+
 <body>
   <header>
-   <div class="interface">
-     <div class="logo">
-       <a href="#">
-         <img src="img/House.png" alt="Logo do Portifólio">
-       </a>
+    <div class="interface">
+      <div class="logo">
+        <a href="#">
+          <i class="bi bi-app"></i>
+        </a>
       </div> <!-- logo -->
 
       <nav class="menu-desktop">
@@ -28,13 +32,13 @@
           <li> <a href="#">Projetos</a> </li>
         </ul>
       </nav>
-        <div class="btn-contato">
-          <a href="#">
-            <button>CONTATO</button>
-          </a>
-        </div>
-      
-   </div> <!-- interface -->
+      <div class="btn-contato">
+        <a href="#">
+          <button>CONTATO</button>
+        </a>
+      </div>
+
+    </div> <!-- interface -->
   </header>
 
   <main>
@@ -43,8 +47,10 @@
         <div class="flex">
           <div class="txt-topo-site">
             <h1>OLÁ, SOU UM PROGRAMADOR INICIANTE<span>.</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum beatae impedit dicta atque eveniet, excepturi at praesentium sunt, aut nemo nihil consequatur? Impedit blanditiis, reprehenderit ab ratione temporibus illum?</p>
-            
+            <p>Sou técnico em Desenvolvimento de Sistemas, formado com foco em programação, desenvolvimento web e lógica
+              computacional. Tenho experiência prática em projetos acadêmicos e estudo continuamente para aprimorar
+              minhas habilidades e construir uma carreira na área de tecnologia.</p>
+
             <div class="btn-contato">
               <a href="">
                 <button>ENTRE EM CONTATO</button>
@@ -63,29 +69,67 @@
     <section class="HABILIDADES">
       <div class="interface">
         <h2 class="titulo">MINHAS <span>HABILIDADES.</span></h2>
-        <div class="flex">
+        <div class="habilidades-container">
           <div class="habilidades-box">
             <i class="bi bi-code-slash"></i>
             <h3>WEB SITE</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo alias esse laudantium dicta impedit maiores ex, perferendis tempora corporis debitis, est quo possimus temporibus, repellendus cum ad quas veniam voluptatem?</p>
+            <p>Criação de sites responsivos com HTML, CSS e JavaScript, focando em boas práticas, organização do layout
+              e experiência do usuário. Tenho experiência em desenvolver páginas limpas, rápidas e compatíveis com
+              dispositivos móveis</p>
           </div> <!--habilidades-box-->
 
           <div class="habilidades-box">
-            <i class="bi bi-code-slash"></i>
-            <h3>WEB SITE</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo alias esse laudantium dicta impedit maiores ex, perferendis tempora corporis debitis, est quo possimus temporibus, repellendus cum ad quas veniam voluptatem?</p>
+            <i class="bi bi-badge-3d-fill"></i>
+            <h3>UNITY3D</h3>
+            <p>Experiência no desenvolvimento de jogos simples utilizando Unity3D, incluindo criação de cenas, scripts
+              em C# e mecânicas básicas de gameplay.</p>
           </div> <!--habilidades-box-->
 
           <div class="habilidades-box">
-            <i class="bi bi-code-slash"></i>
-            <h3>WEB SITE</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo alias esse laudantium dicta impedit maiores ex, perferendis tempora corporis debitis, est quo possimus temporibus, repellendus cum ad quas veniam voluptatem?</p>
+            <i class="bi bi-database"></i>
+            <h3>BANCO DE DADOS</h3>
+            <p>Conhecimento em modelagem e manipulação de banco de dados utilizando SQL, criação de tabelas, consultas e
+              integração com aplicações.</p>
           </div> <!--habilidades-box-->
         </div> <!--flex-->
       </div> <!--interface-->
-     </section> <!-- HABILIDADES -->
+    </section> <!-- HABILIDADES -->
 
+    <section class="Projetos" id="projetos">
+      <div class="projetos">
+        <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+
+        <div class="Projetos-div flex">
+
+          <!-- PROJETO 1 -->
+          <div class="projetos-box">
+            <img src="img/projeto1.png" alt="Imagem do projeto 1" style="width:100%; border-radius:16px;">
+            <h3>Calculadora Web</h3>
+            <p>Uma calculadora funcional desenvolvida com HTML, CSS e JavaScript. Layout simples e responsivo.</p>
+            <a href="#" target="_blank" style="color:#2a4653; text-decoration:none; font-weight:600;">Ver projeto →</a>
+          </div>
+
+          <!-- PROJETO 2 -->
+          <div class="projetos-box">
+            <img src="img/projeto2.png" alt="Imagem do projeto 2" style="width:100%; border-radius:16px;">
+            <h3>Landing Page</h3>
+            <p>Site moderno com foco em design responsivo, criado para treinar animações e estrutura visual.</p>
+            <a href="#" target="_blank" style="color:#2a4653; text-decoration:none; font-weight:600;">Ver projeto →</a>
+          </div>
+
+          <!-- PROJETO 3 -->
+          <div class="projetos-box">
+            <img src="img/projeto3.png" alt="Imagem do projeto 3" style="width:100%; border-radius:16px;">
+            <h3>Jogo Educacional</h3>
+            <p>Jogo simples voltado para ensinar hardware básico — desenvolvido como projeto escolar.</p>
+            <a href="#" target="_blank" style="color:#2a4653; text-decoration:none; font-weight:600;">Ver projeto →</a>
+          </div>
+
+        </div> <!-- Projetos-div -->
+      </div>
+    </section> <!-- Projetos -->
   </main>
 
 </body>
+
 </html>
